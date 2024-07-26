@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(162, 73, 244);
+    display: flex;
+}
+
+
+.notes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(220, 220, 220);
+    margin:45px;
+}
+
+.create-notes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(220, 220, 220);
+    height:50px;
+    width:250px;
+    margin:45px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(78, 1, 150);
+    border-radius: 25px;
+    margin-top:5px;
+}
+
+.write-notes{
+    display: block;
+}
+
+
+.write-note{
+    background-color: rgb(247, 229, 229);
+    width:400px;
+    height:170px;
+    left:5px;
+    /* right:5px; */
+    position: relative;
+    margin: 45px;
+    overflow: hidden;
+    padding-top:15px;
+    padding-left:10px;
+    cursor: pointer;
+}
+
+.write-note img{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
